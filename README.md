@@ -1,2 +1,2 @@
 # SVG-Sprite-Animation
-SVG sprite animations
+SVG sprite animation
