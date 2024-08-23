@@ -1,0 +1,38 @@
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #232323;
+}
+
+@keyframes play56 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -33600px 0px;
+  }
+}
+.shapeshifter {
+  animation-duration: 1850ms;
+  animation-timing-function: steps(56);
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.shapeshifter.play {
+  animation-name: play56;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #f8bd2e;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+}
